@@ -1,5 +1,5 @@
 let listaNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroSecreto();
 let tentativas = 1;
 
@@ -27,7 +27,7 @@ function exibirNaTela(tag, texto){
 //criando essa função para nao repetir linhas de codigo quando o jogo for reiniciado, somente chamaremos a função.
 function exibirMensagem(){
     exibirNaTela('h1', 'Jogo do Número Secreto');
-    exibirNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 //chamando a função para iniciar o jogo
